@@ -1,0 +1,15 @@
+.postsBlock {
+    padding: 10px;
+}
+
+.postsBlock .textArea {
+    background-color: lightcyan;
+    border: red solid 1px;
+    border-radius: 10px;
+    width: 40%;
+    height: 60px;
+}
+
+.posts {
+    margin-top: 10px;
+}

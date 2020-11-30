@@ -1,0 +1,40 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+.dialogsItems {
+    padding: 10px;
+    font-weight: bold;
+}
+.dialogsItems .activeLink {
+    color: gold;
+    font-size: 1.5em;
+    font-family: "Tahoma";
+}
+.messages {
+    padding: 10px;
+}
+.textAreaName .textAreaMessage {
+    width: 350px;
+}
+.textAreaName {
+    background-color: aqua;
+    border: burlywood solid 1px;
+    border-radius: 8px;
+}
+.textAreaMessage {
+    background-color: khaki;
+    border: burlywood solid 1px;
+    border-radius: 8px;
+}
+.button {
+    width: 100px;
+}
+.dialogsItems div div{
+    color: aqua;
+    font-weight: normal;
+}
+.messages div div{
+     color: palegoldenrod;
+     font-weight: normal;
+ }

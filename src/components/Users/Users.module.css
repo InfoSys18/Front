@@ -1,0 +1,23 @@
+.userPhoto {
+    height: 100px;
+}
+
+.selectedPage {
+    width: 20px;
+    border: 1px solid red;
+    background-color: lightcyan;
+    font-weight: bold;
+    font-size: 1em;
+    color: red;
+    padding: 3px;
+}
+
+.simplePage {
+    border: 1px solid aqua;
+    padding: 3px;
+    width: 20px;
+}
+
+.pages {
+    width: 800px
+}

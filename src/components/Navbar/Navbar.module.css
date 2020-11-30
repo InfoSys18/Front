@@ -1,0 +1,28 @@
+.nav {
+    grid-area: n;
+    background-color: burlywood;
+    padding: 20px;
+    font-family: "JetBrains Mono";
+}
+
+.item {
+    color: white;
+    font-size: 1.1em;
+    padding: 3px;
+    margin: 3px;
+}
+
+.item a.activeLink {
+    color: gold;
+    border: red solid 1px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 3px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration-line: none;
+}

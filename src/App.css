@@ -1,0 +1,23 @@
+.app-wrapper {
+    font-size: 1rem;
+    display: grid;
+    width: 1200px;
+    margin: 0 auto;
+    grid-template-areas:
+  "h h"
+  "n c";
+    grid-template-rows: 160px 1fr;
+    grid-template-columns: 2fr 10fr;
+    /* grid-gap: 10px; */
+}
+
+.app-wrapper-content {
+    grid-area: c;
+    /*background-color: royalblue;*/
+    background-color: dodgerblue;
+    font-size: 1.2rem;
+}
+
+.item img {
+    width: 200px;
+}

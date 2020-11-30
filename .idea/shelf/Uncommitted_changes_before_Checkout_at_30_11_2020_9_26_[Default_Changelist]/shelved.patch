@@ -1,0 +1,17 @@
+Index: src/aaa.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>Title</title>\r\n</head>\r\n<body>\r\n<h1>Title1</h1>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/aaa.html	(revision 6bcbdb45878f1a897a96764d113821959192f3c4)
++++ src/aaa.html	(date 1606721136441)
+@@ -6,5 +6,6 @@
+ </head>
+ <body>
+ <h1>Title1</h1>
++<h2>New Title</h2>
+ </body>
+ </html>
+\ No newline at end of file

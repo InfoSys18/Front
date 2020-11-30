@@ -1,0 +1,12 @@
+Index: src/redux/aaa
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><h1> Пока! </h1>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/redux/aaa	(revision d2f55119e5fad9747bc53edd64f58eb15c004e32)
++++ src/redux/aaa	(date 1606658955743)
+@@ -1,1 +1,1 @@
+-<h1> Пока! </h1>
++<h1> Привіт </h1>
