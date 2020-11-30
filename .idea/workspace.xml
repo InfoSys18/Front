@@ -9,16 +9,26 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
     </expand>
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d16207ec-faa6-4b0f-be5c-202d763ae561" name="Default Changelist" comment="Merged1" />
+    <list default="true" id="d16207ec-faa6-4b0f-be5c-202d763ae561" name="Default Changelist" comment="61-1&#10;&#10;Signed-off-by: InfoSys18 &lt;infosys@i.ua&gt;">
+      <change afterPath="$PROJECT_DIR$/src/components/Header/HeaderContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
+    </list>
     <list id="54227568-272a-4bd6-982a-00e4f31a208b" name="Revert &quot;Initialize project using Create React App&quot;" comment="Revert &quot;Initialize project using Create React App&quot;&#10;&#10;This reverts commit c3aa01cb" />
     <list id="d64ca20a-d978-4d6b-a4d1-a6d3177a23a5" name="Revert &quot;Row1&quot;" comment="Revert &quot;Row1&quot;&#10;&#10;This reverts commit 7b05b7c3" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,9 +103,7 @@
     <option name="showPreview" value="true" />
   </component>
   <component name="ProjectId" id="1jrQw8c1EwpTeIwKfKDVKZCzG9d" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -107,7 +115,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="true" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Header" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -116,24 +124,24 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JavaScriptProjects\it_kamasutra\projects\my-app\src\redux" />
-      <recent name="D:\JavaScriptProjects\it_kamasutra\projects\my-app\src\components\Profile" />
-      <recent name="D:\JavaScriptProjects\it_kamasutra\projects\my-app\proj_My1" />
-      <recent name="D:\JavaScriptProjects\it_kamasutra\projects\my-app\proj2" />
-      <recent name="D:\JavaScriptProjects\it_kamasutra\projects\my-app\proj1" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JavaScriptProjects\it_kamasutra\projects\my-app\src\assets\images" />
       <recent name="D:\JavaScriptProjects\it_kamasutra\projects\my-app\src\components" />
       <recent name="D:\JavaScriptProjects\it_kamasutra\projects\my-app\src2" />
       <recent name="D:\JavaScriptProjects\it_kamasutra\projects\my-app\src\components\ArticleList" />
       <recent name="D:\JavaScriptProjects\it_kamasutra\projects\my-app\src\components\" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaScriptProjects\it_kamasutra\projects\my-app\src\components\Header" />
+      <recent name="D:\JavaScriptProjects\it_kamasutra\projects\my-app\src\redux" />
+      <recent name="D:\JavaScriptProjects\it_kamasutra\projects\my-app\src\components\Profile" />
+      <recent name="D:\JavaScriptProjects\it_kamasutra\projects\my-app\proj_My1" />
+      <recent name="D:\JavaScriptProjects\it_kamasutra\projects\my-app\proj2" />
     </key>
   </component>
   <component name="RunManager" selected="npm.start">
@@ -245,7 +253,7 @@
       <workItem from="1606683128908" duration="7210000" />
       <workItem from="1606690831323" duration="45000" />
       <workItem from="1606691988048" duration="151000" />
-      <workItem from="1606720639780" duration="2396000" />
+      <workItem from="1606720639780" duration="9172000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1606656003545</created>
@@ -401,7 +409,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606721265053</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="61-1">
+      <created>1606728671017</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1606728671017</updated>
+    </task>
+    <task id="LOCAL-00024" summary="61-1&#10;&#10;Signed-off-by: InfoSys18 &lt;infosys@i.ua&gt;">
+      <created>1606729015643</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1606729015643</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,6 +471,13 @@
               </option>
               <option name="FILTERS">
                 <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
                   <entry key="roots">
                     <value>
                       <list>
@@ -513,7 +542,9 @@
     <MESSAGE value="Git init" />
     <MESSAGE value="title2" />
     <MESSAGE value="Merged1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merged1" />
+    <MESSAGE value="61-1" />
+    <MESSAGE value="61-1&#10;&#10;Signed-off-by: InfoSys18 &lt;infosys@i.ua&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="61-1&#10;&#10;Signed-off-by: InfoSys18 &lt;infosys@i.ua&gt;" />
   </component>
   <component name="WindowStateProjectService">
     <state x="482" y="183" key="#Deployment" timestamp="1604825571035">
@@ -524,6 +555,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="363" y="206" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1606378642046" />
+    <state x="300" y="183" width="816" height="730" key="#Intentions" timestamp="1606729606120">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="300" y="183" width="816" height="730" key="#Intentions/0.0.1920.1050@0.0.1920.1050" timestamp="1606729606120" />
     <state x="561" y="233" key="#JavaScript" timestamp="1606654865400">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -644,18 +679,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="390" y="230" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604920807141" />
-    <state x="728" y="123" width="1104" height="842" key="SettingsEditor" timestamp="1606720724132">
+    <state x="728" y="123" width="1104" height="842" key="SettingsEditor" timestamp="1606727738470">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="728" y="123" width="1104" height="842" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1606720724132" />
+    <state x="728" y="123" width="1104" height="842" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1606727738470" />
     <state x="601" y="222" key="VCS.ChangeListViewerDialog" timestamp="1606684331442">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="601" y="222" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1606684331442" />
-    <state x="418" y="257" width="1102" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606721856888">
+    <state x="418" y="257" width="1102" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606729040361">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="418" y="257" width="1102" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1606721856888" />
+    <state x="418" y="257" width="1102" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1606729040361" />
     <state x="486" y="258" key="VcsDiffUtil.ChangesDialog" timestamp="1606668597241">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
