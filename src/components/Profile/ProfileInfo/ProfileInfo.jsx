@@ -9,7 +9,7 @@ const ProfileInfo = (props) => {
   return (
     <div>
       <div>
-        <img
+        <img className={s.profileImage}
           src='https://www.sydney.com/sites/sydney/files/styles/landscape_1400x788/public/2019-09/147392-56.webp?itok=tAF0pB0b'/>
         <div className={s.descriptionBlock}>
           <h2>{"Id: " + props.profile.userId}</h2>
