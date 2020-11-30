@@ -23,11 +23,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d16207ec-faa6-4b0f-be5c-202d763ae561" name="Default Changelist" comment="61-2">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="d16207ec-faa6-4b0f-be5c-202d763ae561" name="Default Changelist" comment="62-1 після follow/unfollow" />
     <list id="54227568-272a-4bd6-982a-00e4f31a208b" name="Revert &quot;Initialize project using Create React App&quot;" comment="Revert &quot;Initialize project using Create React App&quot;&#10;&#10;This reverts commit c3aa01cb" />
     <list id="d64ca20a-d978-4d6b-a4d1-a6d3177a23a5" name="Revert &quot;Row1&quot;" comment="Revert &quot;Row1&quot;&#10;&#10;This reverts commit 7b05b7c3" />
     <option name="SHOW_DIALOG" value="false" />
@@ -254,7 +250,7 @@
       <workItem from="1606691988048" duration="151000" />
       <workItem from="1606720639780" duration="17133000" />
       <workItem from="1606749241141" duration="207000" />
-      <workItem from="1606753042144" duration="678000" />
+      <workItem from="1606753042144" duration="4006000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1606656003545</created>
@@ -438,7 +434,21 @@
       <option name="project" value="LOCAL" />
       <updated>1606747240895</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="62-1 до follow/unfollow">
+      <created>1606754007121</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1606754007121</updated>
+    </task>
+    <task id="LOCAL-00028" summary="62-1 після follow/unfollow">
+      <created>1606756872599</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1606756872599</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +570,9 @@
     <MESSAGE value="61-1" />
     <MESSAGE value="61-1&#10;&#10;Signed-off-by: InfoSys18 &lt;infosys@i.ua&gt;" />
     <MESSAGE value="61-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="61-2" />
+    <MESSAGE value="62-1 до follow/unfollow" />
+    <MESSAGE value="62-1 після follow/unfollow" />
+    <option name="LAST_COMMIT_MESSAGE" value="62-1 після follow/unfollow" />
   </component>
   <component name="WindowStateProjectService">
     <state x="482" y="183" key="#Deployment" timestamp="1604825571035">
@@ -603,10 +615,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="442" y="98" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1606686021984" />
-    <state x="93" y="100" width="1466" height="850" key="DiffContextDialog" timestamp="1606721887158">
+    <state x="93" y="100" width="1466" height="850" key="DiffContextDialog" timestamp="1606757051219">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="93" y="100" width="1466" height="850" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1606721887158" />
+    <state x="93" y="100" width="1466" height="850" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1606757051219" />
     <state x="102" y="76" width="1043" height="500" key="EnvironmentVariablesDialog" timestamp="1606127921900">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -703,6 +715,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="601" y="222" key="VCS.ChangeListViewerDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1606684331442" />
+    <state x="393" y="427" key="VCS.ChangelistChooser" timestamp="1606755455733">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="393" y="427" key="VCS.ChangelistChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1606755455733" />
     <state x="418" y="257" width="1102" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606747297962">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
