@@ -23,10 +23,13 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d16207ec-faa6-4b0f-be5c-202d763ae561" name="Default Changelist" comment="62-1 після follow/unfollow&#10;&#10;Signed-off-by: InfoSys18 &lt;infosys@i.ua&gt;">
+    <list default="true" id="d16207ec-faa6-4b0f-be5c-202d763ae561" name="Default Changelist" comment="62-2">
+      <change afterPath="$PROJECT_DIR$/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/Users.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/Users.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Users/UsersContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Щоденник-IT-Kamasutra.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Щоденник-IT-Kamasutra.txt" afterDir="false" />
     </list>
     <list id="54227568-272a-4bd6-982a-00e4f31a208b" name="Revert &quot;Initialize project using Create React App&quot;" comment="Revert &quot;Initialize project using Create React App&quot;&#10;&#10;This reverts commit c3aa01cb" />
     <list id="d64ca20a-d978-4d6b-a4d1-a6d3177a23a5" name="Revert &quot;Row1&quot;" comment="Revert &quot;Row1&quot;&#10;&#10;This reverts commit 7b05b7c3" />
@@ -39,8 +42,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -123,7 +126,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -254,7 +257,8 @@
       <workItem from="1606691988048" duration="151000" />
       <workItem from="1606720639780" duration="17133000" />
       <workItem from="1606749241141" duration="207000" />
-      <workItem from="1606753042144" duration="6163000" />
+      <workItem from="1606753042144" duration="6218000" />
+      <workItem from="1606806171638" duration="7280000" />
     </task>
     <task id="LOCAL-00001" summary="Initialize project using Create React App">
       <created>1606656003545</created>
@@ -459,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606757178727</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="62-2">
+      <created>1606764795930</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1606764795930</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -556,9 +567,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/src" />
       <path value="$PROJECT_DIR$/Kamasutra" />
-      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/sqData-master" />
     </ignored-roots>
-    <MESSAGE value="Initialize project using Create React App" />
     <MESSAGE value="Створив нову гілку" />
     <MESSAGE value="123" />
     <MESSAGE value="Both" />
@@ -583,7 +593,8 @@
     <MESSAGE value="62-1 до follow/unfollow" />
     <MESSAGE value="62-1 після follow/unfollow" />
     <MESSAGE value="62-1 після follow/unfollow&#10;&#10;Signed-off-by: InfoSys18 &lt;infosys@i.ua&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="62-1 після follow/unfollow&#10;&#10;Signed-off-by: InfoSys18 &lt;infosys@i.ua&gt;" />
+    <MESSAGE value="62-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="62-2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="482" y="183" key="#Deployment" timestamp="1604825571035">
@@ -718,10 +729,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="390" y="230" key="RollbackChangesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604920807141" />
-    <state x="728" y="123" width="1104" height="842" key="SettingsEditor" timestamp="1606727738470">
+    <state x="728" y="123" width="1104" height="842" key="SettingsEditor" timestamp="1606806245244">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="728" y="123" width="1104" height="842" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1606727738470" />
+    <state x="728" y="123" width="1104" height="842" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1606806245244" />
     <state x="601" y="222" key="VCS.ChangeListViewerDialog" timestamp="1606684331442">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -730,10 +741,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="393" y="427" key="VCS.ChangelistChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1606755455733" />
-    <state x="418" y="257" width="1102" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606757214802">
+    <state x="418" y="257" width="1102" height="535" key="Vcs.Push.Dialog.v2" timestamp="1606764807164">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="418" y="257" width="1102" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1606757214802" />
+    <state x="418" y="257" width="1102" height="535" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1606764807164" />
     <state x="486" y="258" key="VcsDiffUtil.ChangesDialog" timestamp="1606668597241">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
