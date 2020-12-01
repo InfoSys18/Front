@@ -33,31 +33,42 @@ let Users = (props) => {
             <div>
               {u.followed
                 ? <button onClick={() => {
-                  axios.delete(`https://social-network.samuraijs.com/api/1.0/follow/${u.id}`, {
-                    withCredentials: true,
-                    headers: {
-                      "API-KEY": ""
-                    }
-                  })
-                    .then(response => {
-                      if (response.data.resultCode == 0) {
-                        props.unfollow(u.id);
-                      }
-                    });
+    
+                  // Оскільки закоментоване нижче працює тільки на платній підписці,
+                  // винесемо сюди props.unfollow(u.id); для обох кнопок
+                  props.unfollow(u.id);
+                  
+                  // props.toggleFollowingProgress(true)
+                  // axios.delete(`https://social-network.samuraijs.com/api/1.0/follow/${u.id}`, {
+                  //   withCredentials: true,
+                  //   headers: {
+                  //     "API-KEY": ""
+                  //   }
+                  // })
+                  //   .then(response => {
+                  //     if (response.data.resultCode == 0) {
+                  //       props.unfollow(u.id);
+                  //     }
+                  //     props.toggleFollowingProgress(false)
+                  //   });
                 }}>Unfollow</button>
                 
                 : <button onClick={() => {
-                  axios.post(`https://social-network.samuraijs.com/api/1.0/follow/${u.id}`, {}, {
-                    withCredentials: true,
-                    headers: {
-                      "API-KEY": ""
-                    }
-                  })
-                    .then(response => {
-                      if (response.data.resultCode == 0) {
-                        props.follow(u.id);
-                      }
-                    });
+                  props.follow(u.id);
+                  
+                  // props.toggleFollowingProgress(true)
+                  // axios.post(`https://social-network.samuraijs.com/api/1.0/follow/${u.id}`, {}, {
+                  //   withCredentials: true,
+                  //   headers: {
+                  //     "API-KEY": ""
+                  //   }
+                  // })
+                  //   .then(response => {
+                  //     if (response.data.resultCode == 0) {
+                  //       props.follow(u.id);
+                  //     }
+                  //     props.toggleFollowingProgress(false)
+                  //   });
                 }}>Follow</button>
                 }
                 </div>
